@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r(\A(spec)/))
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'guard',  '~> 1.8'
-  spec.add_runtime_dependency 'mutant', '~> 0.3.0.beta15'
+  spec.add_runtime_dependency 'guard',  '~> 2.6'
+  spec.add_runtime_dependency 'mutant', '~> 0.5'
   spec.add_runtime_dependency 'inflecto', '~> 0.0.2'
 end
